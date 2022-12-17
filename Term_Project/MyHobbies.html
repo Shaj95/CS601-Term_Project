@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link href="CSSAssg2.css" rel="stylesheet">
+</head>
+<body>
+  <script>
+    alert("Hover your mouse over the Formula 1 car to see another hobby of mine");
+    </script>
+     <script src="https://unpkg.com/vue@3"></script>
+  <header>
+  <h1 id = "title">Hobbies</h1>
+  <nav>
+    <a class = "centered" href="index.html">Main Page</a>
+    <a href="MyHobbies.html">My Hobbies</a>
+    <a href="ContactDetails.html">Contact Details</a>
+    <a href="calculator.html">Calculator Game</a>
+    <a href="contact_form.html">Contact Form</a>
+    <a href="shajee_evolution.html">My Growth</a>
+    <hr>
+    <a href="https://soundcloud.com/shajee-ur-rehman" target="_blank">My SoundCloud</a>
+    <a href="https://github.com/Shaj95" target="_blank">My GitHub</a>
+  </nav>
+    <hr>
+  </header>
+  <section>
+    <div>
+    <h3 id="section-Hobbies">My hobbies include the following:</h3>
+    <ul>
+      <li><em>Following Formula 1</em></li>
+      <li><em>Watch Movies (Horror, Thriller, Thought-Provoking)</em></li>
+      <li><em>Watch Movies, Shows, Documentaries on Netflix</em></li>
+      <li><em>Creative Thinking for Escape Rooms, Anime, Videogame Development </em></li>
+      <li><em>Table Tennis</em></li>
+      <li><em>Music (Sing & Play Guitar). At the bottom of this list is my song cover of "Something About Us" by Daft Punk.</em></li>
+      <li><em>Karting</em></li>
+      <li><em>Videogames</em></li>
+      <li><em>Cooking</em></li>
+    </ul>
+    <audio src= "audio/DaftPunk-SomethingAboutUs(Cover2).mp3" controls></audio>
+  </div>
+  </section>
+  <footer>
+    <hr>
+    <br>
+    <div id = "app">
+      <img class = "img-center" v-bind:src = "imageDefaultOne" @mouseover = "actionHoverOne(imageTwo)" @mouseout = "actionOutOne(imageOne)"><br>
+      </div>
+    <script src= "hobbies_vue.js"></script>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shajee's Form</title>
+     <link href="contact_form.css" rel="stylesheet">
+     <link href="CSSAssg2.css" rel="stylesheet">
+     <script src= "form_helpbutton.js"></script>
+     <script src= "form_validation.js"></script>
+  </head>
+  <body>
+    <header>
+    <h1 id = "title">Welcome to My Contact Form</h1>
+    <br>
+    <nav>
+        <a class = "centered" href="index.html">Main Page</a>
+        <a href="MyHobbies.html">My Hobbies</a>
+        <a href="ContactDetails.html">Contact Details</a>
+        <a href="calculator.html">Calculator Game</a>
+        <a href="contact_form.html">Contact Form</a>
+        <a href="shajee_evolution.html">My Growth</a>
+        <hr>
+        <a href="https://soundcloud.com/shajee-ur-rehman" target="_blank">My SoundCloud</a>
+        <a href="https://github.com/Shaj95" target="_blank">My GitHub</a>
+      </nav>
+      <hr>
+    </header>
+    <div class = "container">
+        
+    <div>
+        <p class = "redpoints">I have added a Contact Form to this page. This will help you reach out to me for any querries!</p>
+        <p class = "redpoints">However, do make sure that the form is completed before you submit it.</p><br>
+        <input type = "submit" id = "clickme" value = "Help">
+        <hr>
+        <br>
+        <form name = "Shajee's Form" method = "post" action = "" novalidate onsubmit = "return validateForm();">
+            <p class = "teal">Enter your First Name (required):
+                <input type = "text" name = "textName" id = "firstName" required>
+            </p><br>
+            <p class = "teal">Enter your Last Name (required):
+                <input type = "text" name = "textName" id = "lastName" required>
+            </p><br>
+            <p class = "teal">Enter your e-mail adress (required):
+                <input type = "text" name = "textName" id = "email" required>
+            </p><br>
+            <p class = "teal">Please write your message here: (required)
+                <p><textarea rows = "5" cols = "50" name = "taComments" id = "message" required></textarea></p>
+            <p><input type = "submit" name = "submitButton" value = "Send"></p>
+            <p class = "redpoints">This is just a template, it will not actually submit information to a link/e-mail</p>
+        </form>
+    </div>
+
+    </div>
+    <br>
+  <div>
+  </div>
+    <footer>
+    </footer>
+  </body>
+</html>
